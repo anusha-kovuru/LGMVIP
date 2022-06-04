@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    background-image: url('./background.jpeg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.container{
+    width: 30%;
+    position: absolute;
+    transform: translate(-50%,-80%);
+    top: 50%;
+    left: 50%;
+}
+.container h1{
+    text-transform: uppercase;
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    color:rgba(116,16,124,1);
+    font-weight: 500;
+    word-spacing: 10px;
+}
+#newlist{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newlist input{
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid #da7096;
+    padding: 15px;
+    color:black;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#newlist button{
+    float: right;
+    width: 20%;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    background-color:#f40f89 ;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.task{
+    background-color: #ffffff;
+    height: 60px;
+    margin-top: 50px;
+    padding:10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.task span{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.task button{
+    background-color:#f40f89;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+    color: #c94b4b;
+}
