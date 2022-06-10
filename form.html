@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <section class="container">
+        <h1>Student Enrollment Form</h1>
+        <table class="table1">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name" placeholder="Enter Name" class="input"></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="text" id="age" placeholder="Enter Age" class="input"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" placeholder="Enter Email" class="input"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" id="city" placeholder="Enter City" class="input"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <div id="gender">
+                    <input type="radio" id="male" value="Male" name="gender">Male
+                    <input type="radio" id="female" value="Female" name="gender">Female</td>
+                    </div>
+            </tr>
+            <tr>
+                <td>Skills:</td>
+                <td>
+                    <div id="skills">
+                    <input type="checkbox" id="html" value="html" name="skills">HTML
+                    <input type="checkbox" id="css" value="css" name="skills">CSS
+                    <input type="checkbox" id="js" value="js" name="skills">JS
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <button id="entry">Submit</button>
+        <div class="table">
+            <table id="display" class="table2">
+                <h1>Enrolled Students</h1>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>Gender</th>
+                <th>Skills</th>
+            </table>
+        </div>
+    </section>
+    <script src="form.js"></script>
+</body>
+</html>
